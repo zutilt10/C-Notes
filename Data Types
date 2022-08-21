@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    // There many data types that variables can store 
+    int age = 40;
+    double gpa = 4.0;
+    char alplhabet = "A";
+    // The "[]" indicates that we want this variable to store an Array of a certain type of data
+    char phrase[] = "AFDE";
+
+
+    return 0;
+}
