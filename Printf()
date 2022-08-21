@@ -1,0 +1,20 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+int main()
+{
+    // printf() is a function(a collection of many lines of code run together) that writes down the string within the bracket. If we add a "\n" to the string it moves to a new line
+    // for any string afterwards
+    printf("Hi\n World");
+    //If we want to insert something more than plain text into the function we must use something else
+    //If we want an integer we use "%d"
+    printf("%d", 53);
+    //If we want a string we use "%s"
+    printf("%s", "World");
+    //If we want a decimal number, we use "%f"
+    printf("%f", 5.2);
+    //It is possible to use different types of inserts at once
+    printf("My favorite %s is %d", "number", 3);
+
+    return 0;
+}
